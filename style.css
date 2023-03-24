@@ -1,0 +1,134 @@
+html, body {
+  background-color: #CABBAA;
+}
+
+.welc {
+  color: #D1E4E8;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 4px;
+  padding-top: 2px;
+  margin: auto;
+  background-color: #746055;
+  color: #CABBAA;
+  width: 100%;
+}
+
+.bartext {
+  text-align: center;
+  color: #CABBAA;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 13px;
+  overflow: hidden;
+  background-color: #746055;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+li a.nav-link:hover:not(.active) {
+  background-color: #D1E4E8 ;
+}
+
+.active {
+  background-color: #EDEDDF;
+  color: #CABBAA;
+}
+
+a {
+  color: #CABBAA;
+}
+
+.active:hover {
+color: #746055;
+}
+
+.nav-link {
+  color: #CABBAA;
+}
+
+.nav-link:hover {
+  color: #746055;
+}
+
+#first {
+  background: #746055;
+  padding: 20px; 
+  width: 450px;
+  height: 350px;
+  border-radius: 15px;
+  box-shadow: #EDEDDF 5px 10px;
+}
+
+.button {
+  background-color: #CABBAA;
+  border: 2px solid #746055;
+  border-radius: 30px;
+  box-shadow: #746055 4px 4px 0 0;
+  color: #746055;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  background-color: #EDEDDF;
+}
+
+.button:active {
+  box-shadow: #746055 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+#b1 {
+  background: #746055;
+  padding: 30px; 
+  width: 300px;
+  height: 200px; 
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: #EDEDDF 5px 10px;
+}
+
+#a2 {
+  background: #746055;
+  padding: 30px; 
+  width: 450px;
+  height: 430px; 
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: #EDEDDF 5px 10px;
+}
