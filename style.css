@@ -8,6 +8,11 @@ html, body {
   font-family: "Lexend Deca";
 }
 
+.caption {
+  color: white;
+  text-align: center;
+}
+
 .welc1 {
   color: #EDEDDF;
   text-align: center;
@@ -56,7 +61,7 @@ li a.nav-link:hover:not(.active) {
   float: left;
 }
 
-.active {
+.navlink:active {
   background-color: #EDEDDF;
   color: #CABBAA;
 }
@@ -75,6 +80,15 @@ color: #746055;
 
 .nav-link:hover {
   color: #746055;
+}
+
+.first {
+  background: #746055;
+  padding: 20px; 
+  width: 450px;
+  height: 385px;
+  border-radius: 15px;
+  box-shadow: #EDEDDF 5px 10px;
 }
 
 #first {
@@ -228,3 +242,137 @@ i {
   text-align: center;
   padding: 10px;
 }
+
+.carousel-item:active {
+  color:#746055;
+}
+
+.testimonials {
+  padding: 40px 0;
+  color: #D1E4E8;
+  text-align: center;
+}
+
+.innner {
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col {
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.testimonial {
+  background: #746055;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.testimonial img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.name {
+  margin: 20px 0;
+}
+
+.stars {
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 400px;
+  background: #746055;
+  padding: 20px 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container .star2 input {
+  display: none;
+}
+
+.star2 label {
+  font-size: 15px;
+  padding: 10px;
+  transition: all 0.2s ease;
+  color:#CABBAA;
+  justify-content: center;
+  margin-bottom: 20px;
+  float: right;
+}
+
+.star2 input:not(:checked) ~ label:hover {
+  color: #D1E4E8;
+}
+
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label {
+  color:#EDEDDF;
+}
+
+input:checked ~ label {
+  color: #EDEDDF;
+}
+
+input#rate-5:checked ~ label {
+  color: #EDEDDF;
+  text-shadow: 0 0 20px #EDEDDF;
+}
+
+form .textarea {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+form .textarea textarea {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  background: #CABBAA;
+  padding: 10px;
+  font-size: 17px;
+  resize: none;
+}
+
+form .btn {
+  height: 45px;
+  width: 100%;
+  margin: 15px 0; 
+}
+
+form .btn button {
+  height: 100%;
+  width: 100%; 
+  outline: none;
+  background: #CABBAA;
+  color: #746055;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form .btn button:hover {
+  background: #EDEDDF;
+}
+
+
+
