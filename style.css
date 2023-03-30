@@ -308,7 +308,7 @@ i {
   display: none;
 }
 
-.star2 label {
+.star2 label{
   font-size: 15px;
   padding: 10px;
   transition: all 0.2s ease;
@@ -332,6 +332,22 @@ input:checked ~ label {
 }
 
 input#rate-5:checked ~ label {
+  color: #EDEDDF;
+  text-shadow: 0 0 20px #EDEDDF;
+}
+input#rate-4:checked ~ label {
+  color: #EDEDDF;
+  text-shadow: 0 0 20px #EDEDDF;
+}
+input#rate-3:checked ~ label {
+  color: #EDEDDF;
+  text-shadow: 0 0 20px #EDEDDF;
+}
+input#rate-2:checked ~ label {
+  color: #EDEDDF;
+  text-shadow: 0 0 20px #EDEDDF;
+}
+input#rate-1:checked ~ label {
   color: #EDEDDF;
   text-shadow: 0 0 20px #EDEDDF;
 }
